@@ -1,3 +1,3 @@
-> To execute the typing test
+#### To execute the typing test
 
-Change your current directory to the project and run `g++ main.cpp -o main`
+> Change your current directory to the project and run `g++ main.cpp -o main`
