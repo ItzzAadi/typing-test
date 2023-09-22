@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-
+#include <conio.h>
 using namespace std;
 int main(){
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -27,6 +27,6 @@ int main(){
     
     SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
     cout << "This should be a mysterious color" << endl;
-
+    getch();
     return 0;
 }
