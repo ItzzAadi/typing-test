@@ -26,7 +26,7 @@ int main(){
     cout << "This text would be in white" << endl;
     
     SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
-
+    cout << "This should be a mysterious color" << endl;
 
     return 0;
 }
